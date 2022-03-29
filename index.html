@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <title>Fastload-Главная</title>
+</head>
+<body>
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">FastLoad</div>
+
+            <nav class="nav">
+                <a class="nav__link active" href="./onas.html">О нас</a>               
+                <a class="nav__link" href="#" id="open_pop_up">Контакты</a>
+                <a class="nav__link" href="./registr1.html">Регистрация</a>
+                <a class="nav__link" href="./registr.html">Войти</a>
+            </nav>
+        </div>
+    </div>
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_ip_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <p>Телефон:+79822368867<br>
+            E-mail:fastload@yandex.ru<br>
+        Всегда рады вашим пожеланиям и замечаниям!</p>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_ip_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <p>Тест </p>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+        </div>
+    </div>
+</div>
+
+
+</header>
+
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h2 class="intro__suptitle">Перетащите файл что бы загрузить его</h2>
+
+
+            <form class="btn" action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="filename">
+                <input type="submit" value="Загрузить">
+            </form>
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
